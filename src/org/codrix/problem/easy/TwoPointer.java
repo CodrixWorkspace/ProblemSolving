@@ -2,6 +2,8 @@ package org.codrix.problem.easy;
 
 import java.util.Arrays;
 
+// 26. Remove Duplicates from Sorted Array - Lokesh
+// https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 public class TwoPointer {
 
     public static void main(String[] args) {
