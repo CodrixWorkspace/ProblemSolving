@@ -11,13 +11,16 @@ public class LastWord {
         System.out.println("Length of last word in '" + input + "': " + lengthOfLastWord);
     }
     public int lastWord(String s) {
-        int i = s.length() - 1;
-        while (i >= 1 && s.charAt(i) == ' ')
-            --i;
-        final int lastIndex = i;
-        while (i >= 0 && s.charAt(i) != ' ')
-            --i;
-
-        return lastIndex - i;
+        int count = 0;
+        for (int i = s.length() - 1; i >= 0; i--) {
+            if (s.charAt(i) != ' ') {
+                count++;
+            } else {
+                if (count>0){
+                    return count;
+            }
+        }
     }
+return count;
+}
 }
