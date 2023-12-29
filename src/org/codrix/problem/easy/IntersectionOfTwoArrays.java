@@ -12,7 +12,7 @@ public class IntersectionOfTwoArrays {
             set1.add(n);  //4,9,5
         }
 
-        for (int n : nums2) {  // check for common elements and add to set2
+        for (int n : nums2) {  // check for common elements  and add to set2
             if (set1.contains(n))
                 set2.add(n); //4,9
         }

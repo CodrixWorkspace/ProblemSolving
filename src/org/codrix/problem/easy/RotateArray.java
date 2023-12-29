@@ -19,7 +19,7 @@ public class RotateArray {
         // Reverse the first k elements
         reverseNum(nums, 0, k - 1);
 
-        // Reverse the remaining elements after k
+        // Reverse the remaining  elements after k
         reverseNum(nums, k, n - 1);
 
         return nums;

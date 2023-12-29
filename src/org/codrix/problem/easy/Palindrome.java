@@ -7,7 +7,7 @@ public class Palindrome {
         System.out.println(result);
     }
     public static Boolean Palind(int x){
-        if(x<0 ||(x%10==0 && x!=0)){  //-121 121- false,100 or 10 !=0 as 01 and 001 and x!0;
+        if (x < 0 || (x % 10 == 0 && x != 0)) {  //-121 121- false ,100 or 10 !=0 as 01 and 001 and x!0;
             return false;
         }
         int r=0;
