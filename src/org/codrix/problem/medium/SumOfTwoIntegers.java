@@ -1,4 +1,4 @@
-package org.codrix;
+package org.codrix.problem.medium;
 
 //https://leetcode.com/problems/sum-of-two-integers/
 public class SumOfTwoIntegers {

@@ -1,4 +1,4 @@
-package org.codrix;
+package org.codrix.problem.medium;
 //https://leetcode.com/problems/add-two-numbers/
 
 class ListNode {
