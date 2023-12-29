@@ -1,5 +1,9 @@
 package org.codrix.problem.easy;
 
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
 // 27. Remove Element - Karthick
 // https://leetcode.com/problems/remove-element/
 public class RemoveElement {
@@ -17,8 +21,15 @@ public class RemoveElement {
         return count;
     }
 
-    public static void main(String[] args) {
-        System.out.println(removeElement(new int[]{3, 2, 2, 3}, 3));
-        System.out.println(removeElement(new int[]{0, 1, 2, 2, 3, 0, 4, 2}, 2));
+    @Test
+    public void testRemoveElementCase1() {
+        assertEquals(2, removeElement(new int[]{3, 2, 2, 3}, 3));
     }
+
+    @Test
+    public void testRemoveElementCase2() {
+        assertEquals(5, removeElement(new int[]{0, 1, 2, 2, 3, 0, 4, 2}, 2));
+    }
+
+
 }
